@@ -1,0 +1,87 @@
+{
+  "hwinfo": {
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+    "ram_mb": 31803,
+    "temp_c": 63.0
+  },
+  "rows": [
+    {
+      "circuit": "cubic",
+      "k": 4,
+      "setup_ms": 8.069901000000002,
+      "proof_ms": 15.726114,
+      "verify_ms": 1.881962,
+      "proof_bytes": 1216,
+      "peak_rss_kb": 6172,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 0.047178342,
+      "proofs_per_joule": 21.196166664780208,
+      "verified": true
+    },
+    {
+      "circuit": "cubic",
+      "k": 8,
+      "setup_ms": 74.122869,
+      "proof_ms": 44.972221,
+      "verify_ms": 2.528989,
+      "proof_bytes": 1472,
+      "peak_rss_kb": 7044,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 0.134916663,
+      "proofs_per_joule": 7.411982906811148,
+      "verified": true
+    },
+    {
+      "circuit": "poseidon",
+      "k": 6,
+      "setup_ms": 31.85579,
+      "proof_ms": 34.236019,
+      "verify_ms": 2.04177,
+      "proof_bytes": 2080,
+      "peak_rss_kb": 7308,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 0.102708057,
+      "proofs_per_joule": 9.736334511712164,
+      "verified": true
+    },
+    {
+      "circuit": "poseidon",
+      "k": 7,
+      "setup_ms": 50.825109,
+      "proof_ms": 41.886067,
+      "verify_ms": 2.061138,
+      "proof_bytes": 2144,
+      "peak_rss_kb": 8648,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 0.125658201,
+      "proofs_per_joule": 7.958095787158372,
+      "verified": true
+    },
+    {
+      "circuit": "merkle",
+      "k": 9,
+      "setup_ms": 220.593097,
+      "proof_ms": 122.063764,
+      "verify_ms": 3.800204,
+      "proof_bytes": 2848,
+      "peak_rss_kb": 17084,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 0.36619129200000006,
+      "proofs_per_joule": 2.730813161990755,
+      "verified": true
+    },
+    {
+      "circuit": "merkle",
+      "k": 10,
+      "setup_ms": 505.011966,
+      "proof_ms": 175.50790999999998,
+      "verify_ms": 5.504908,
+      "proof_bytes": 2912,
+      "peak_rss_kb": 27620,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 0.5265237299999999,
+      "proofs_per_joule": 1.899249631160974,
+      "verified": true
+    }
+  ]
+}

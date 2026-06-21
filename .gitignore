@@ -1,0 +1,17 @@
+# Rust build artifacts
+/target
+**/target
+**/*.rs.bk
+
+# Worktrees
+.worktrees/
+
+# Proof artifacts produced at runtime
+proof.bin
+**/proof.bin
+*.bin
+!bench-results/sample-proof.bin
+
+# Local-only docs; publish images only
+docs/*
+!docs/img/

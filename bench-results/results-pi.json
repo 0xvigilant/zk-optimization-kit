@@ -1,0 +1,87 @@
+{
+  "hwinfo": {
+    "cpu": "Raspberry Pi 3 Model B Rev 1.2",
+    "ram_mb": 905,
+    "temp_c": 39.166
+  },
+  "rows": [
+    {
+      "circuit": "cubic",
+      "k": 4,
+      "setup_ms": 88.64616699999999,
+      "proof_ms": 271.74225,
+      "verify_ms": 28.245241,
+      "proof_bytes": 1216,
+      "peak_rss_kb": 4892,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 0.81522675,
+      "proofs_per_joule": 1.2266525846949945,
+      "verified": true
+    },
+    {
+      "circuit": "cubic",
+      "k": 8,
+      "setup_ms": 1311.556131,
+      "proof_ms": 705.076647,
+      "verify_ms": 43.260894,
+      "proof_bytes": 1472,
+      "peak_rss_kb": 5676,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 2.115229941,
+      "proofs_per_joule": 0.47276184050573633,
+      "verified": true
+    },
+    {
+      "circuit": "poseidon",
+      "k": 6,
+      "setup_ms": 480.544482,
+      "proof_ms": 479.011812,
+      "verify_ms": 34.326794,
+      "proof_bytes": 2080,
+      "peak_rss_kb": 6044,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 1.437035436,
+      "proofs_per_joule": 0.6958770639529309,
+      "verified": true
+    },
+    {
+      "circuit": "poseidon",
+      "k": 7,
+      "setup_ms": 893.1464890000001,
+      "proof_ms": 626.400485,
+      "verify_ms": 39.895752,
+      "proof_bytes": 2144,
+      "peak_rss_kb": 6952,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 1.879201455,
+      "proofs_per_joule": 0.5321409247206017,
+      "verified": true
+    },
+    {
+      "circuit": "merkle",
+      "k": 9,
+      "setup_ms": 3629.684386,
+      "proof_ms": 1857.402643,
+      "verify_ms": 70.50835799999999,
+      "proof_bytes": 2848,
+      "peak_rss_kb": 15904,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 5.572207929,
+      "proofs_per_joule": 0.17946207548996868,
+      "verified": true
+    },
+    {
+      "circuit": "merkle",
+      "k": 10,
+      "setup_ms": 6771.217145,
+      "proof_ms": 2874.0626540000003,
+      "verify_ms": 105.035652,
+      "proof_bytes": 2912,
+      "peak_rss_kb": 26612,
+      "assumed_power_w": 3.0,
+      "proof_energy_j": 8.622187962,
+      "proofs_per_joule": 0.11597984228681096,
+      "verified": true
+    }
+  ]
+}

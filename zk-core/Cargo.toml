@@ -1,0 +1,24 @@
+[package]
+name = "zk-core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "zk_core"
+path = "src/lib.rs"
+
+[[bin]]
+name = "zk-core"
+path = "src/main.rs"
+
+[dependencies]
+halo2_proofs = "0.3"
+halo2_gadgets = "0.5"
+pasta_curves = "0.5"
+ff = "0.13"
+rand = "0.8"
+axum = "0.7"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+clap = { version = "4", features = ["derive"] }
